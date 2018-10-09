@@ -2,12 +2,13 @@
     font-family: "Open Sans";
 }
 .header{
-    background: url('../images/header.png') center;
+    /* background: url('../images/header.png') center; */
     background-size: cover;
     color: #ffffff;
+    height: 0px;
 }
 .header_background{
-    background-color: rgba(59, 67, 76, 0.9);
+    
 }
 .header_wrapper{
     width: 1170px;
@@ -27,6 +28,7 @@
     font-weight: 400;
     line-height: 17px;
     font-weight: 400;
+    z-index: 999;
 }
 .header_logo span {
     font-weight: 700;
@@ -43,6 +45,7 @@
     line-height: 17px;
     text-align: right;
     letter-spacing: 0px;
+    z-index: 999;
 }
 .header_icon-menu{
     padding-left: 10px;
@@ -52,6 +55,9 @@
 }
 .nav_menu{
     display: inherit;
+    height: 17px;
+    padding-block-end: 70px;
+    z-index: 999;
 }
 .nav_menu a{
     line-height: 17px;
@@ -160,11 +166,13 @@
 }
 .header_content{
     text-align: center;
+    position: relative;
+    
 }
 .header_title{
+    background: rgba(59, 67, 76, 0.9);
     font-size: 70px;
-    line-height: 17px;
-    font-weight: 00;
+    line-height: 70px;
     text-transform: uppercase;
 }
 .header_title-text{
@@ -196,8 +204,51 @@
     border: 1px solid rgba(59,67,76,0.8);
 }
 .header-icon{
-	padding-bottom:50px;
+    color: #ffffff;
 }
+.header-icon a {
+    margin-top: 50px;
+    
+}
+
+.carousel-fade .background {
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 700px;
+  }
+  
+  @media (max-width:991px) {
+    .carousel-fade .background {
+    background-size: cover; /* To make the background image looks good */
+    }
+  }
+  
+  .carousel-fade .background.a {
+    background: url(https://static.pexels.com/photos/92090/pexels-photo-92090-large.jpeg) center;
+    background-size: cover;
+    color: #ffffff;
+  }
+  .slideFilter{
+    background: rgba(59, 67, 76, 0.9);
+  }
+  .carousel-fade .background.b {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/93750/pexels-photo-93750-large.jpeg");
+  }
+  
+  .carousel-fade .background.c {
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://static.pexels.com/photos/76827/bahia-ocean-bay-boat-76827-large.jpeg");
+  }
+  
+  .carousel-fade .carousel-inner .carousel-item {
+    opacity: 0;
+    transition: opacity 0.5s; 
+  }
+  
+  .carousel-fade .carousel-inner .active {
+    opacity: 1;
+  }
+  
+  
 .wrapper{
     max-width: 1200px;
     align-items: center;
