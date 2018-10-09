@@ -1,0 +1,57 @@
+	
+.circle{
+	border-radius: 50%;
+	margin: 0.15em;
+	font-size: 3em;
+	}
+	
+.fa-twitter{
+	background: #4099FF;
+	color: #FFFFFF;
+  padding: 0.15em 0.2em;
+	}
+
+.fa-google-plus{
+  color: #FFFFFF;
+  background: #dd4b39;
+  padding: 0.2em 0.1em;
+  }  
+
+.fa-dribbble{
+	color: #ea4c89;
+	}
+
+.fa-pinterest{
+	color: #cb2027;
+	}
+
+.fa-facebook{
+	background: #3B5998;
+	color: #FFFFFF;
+  padding: 0.15em 0.35em;
+	}
+
+.fa-youtube{
+	background: #bb0000;
+	color: #FFFFFF;
+  padding: 0.25em 0.25em;
+  
+	}
+
+.footer-icon .fa-youtube{
+	background: #3B5998;
+	color: #FFFFFF;
+  padding: 1em 1em;
+}
+
+.fa-behance{
+	background: rgb(24, 92, 165);
+	color:  #ffffff;
+	padding: 0.2em 0.2em;
+}
+
+.fa-dribbble{
+	padding: 0.2em 0.3em;
+	background: #ea4c89;
+	color:  #ffffff;
+}
