@@ -500,6 +500,7 @@
 }
 .feedback_background{
     background-color: rgba(59, 67, 76, 0.9);
+    
     height: 800px;
     text-align: center;
 }
@@ -603,7 +604,7 @@
 .footer__copyright{
     display: flex;
     justify-content: space-between;
-    padding: 45px 300px;
+    font-family: 'Open Sans';
 }
 .carousel-item .active{
     margin-right: 100px;
