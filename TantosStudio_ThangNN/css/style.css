@@ -6,10 +6,8 @@
   color: #ffffff;
   height: 0px;
 }
-.header_background {
-}
 .header_wrapper {
-  width: 1170px;
+  width: 100%;
   margin: 0 auto;
 }
 .header_top {
@@ -184,7 +182,6 @@
   margin: 0 auto;
   margin-block-start: 40px;
   height: 80px;
-  text-overflow: ellipsis;
 }
 
 .btn_header {
@@ -218,11 +215,6 @@
   height: 700px;
 }
 
-@media (max-width: 991px) {
-  .carousel-fade .background {
-    background-size: cover;
-  }
-}
 .slideFilter {
   background: rgba(59, 67, 76, 0.9);
   height: 800px;
@@ -281,6 +273,9 @@
   font-size: 14px;
   line-height: 26px;
   color: #3b434c;
+  padding: 5px;
+  max-height: 80px;
+  overflow: hidden;
 }
 .circle-btn {
   width: 151px;
@@ -288,6 +283,7 @@
   border-radius: 75px;
   background-color: #ffffff;
   border: 1px solid rgba(59, 67, 76, 0);
+  color: aquamarine;
 }
 .circle-btn:hover {
   border: 1px solid rgba(59, 67, 76, 0.3);
@@ -351,13 +347,12 @@
   margin-left: 15px;
   margin-right: 15px;
   word-wrap: break-word;
-  width: calc(100% - 30px);
+  width: calc(50% - 30px);
   color: #3b434c;
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   text-align: center;
-  padding: 0 350px 100px;
   height: 62px;
 }
 .portfollio_img {
@@ -571,95 +566,67 @@
   height: 62px;
   font-size: 16px;
   line-height: 30px;
-  color: #ffffff;
-  text-align: center;
-  word-wrap: break-word;
+  width: 50%;
+  margin: 10px auto;
 }
-.feedback_form-wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: -15px;
-  margin-right: -15px;
+.feedback_form {
+  width: 70%;
+  margin: 40px auto;
 }
-.feedback_form-email {
-  padding-left: 15px;
-  padding-right: 15px;
-  word-wrap: break-word;
-  width: calc(50% - 30px);
-  text-align: end;
-}
-.feedback_form-subject {
-  padding-left: 15px;
-  padding-right: 15px;
-  word-wrap: break-word;
-  width: calc(50% - 30px);
-  text-align: start;
-}
-.feedback_form-email input {
-  width: 400px;
+
+.feedback_form input {
+  width: 47.5%;
   height: 50px;
   border-radius: 10px;
   background-color: #ffffff;
+  float: left;
+  margin-bottom: 30px;
 }
-.feedback_form-subject input {
-  width: 400px;
-  height: 50px;
-  border-radius: 10px;
-  background-color: #ffffff;
-}
-.feedback_form-message {
-  padding-left: 15px;
-  padding-right: 15px;
-  word-wrap: break-word;
-  width: calc(100% - 30px);
-  padding: 30px 0;
-}
-.feedback_form-message textarea {
-  width: 840px;
-  margin-left: 120px;
+
+.feedback_form textarea {
   font-size: 16px;
   font-weight: 400;
   line-height: 40px;
-  padding-left: 10px;
   border-radius: 10px;
-  padding-top: 15px;
 }
-.feedback_form-button {
-  padding-left: 15px;
-  padding-right: 15px;
-  word-wrap: break-word;
-  width: calc(50% - 30px);
-  text-align: start;
-  padding-bottom: 140px;
-}
-.feedback_form-button button {
+
+.feedback_form button {
   width: 210px;
   height: 50px;
   background-color: #f7600e;
   border: transparent;
   border-radius: 10px;
-  margin-left: 100px;
+  font-family: "Open Sans";
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 40px;
-  color: white;
+  color: #ffffff;
   text-transform: uppercase;
+  float: left;
+  margin-top: 30px;
 }
 .feedback_form-icon {
   font-size: 11px;
-  margin-left: calc(10%);
-
+  float: right;
+  margin-top: 30px;
 }
 .footer {
-  width: 2036px;
+  width: 100%;
   height: 141px;
   background-color: #3b434c;
+  font-family: "Open Sans";
   color: #ffffff;
 }
-.footer__copyright {
+.footer_copyright {
   display: flex;
-  justify-content: space-between;
-  font-family: "Open Sans";
+  float: left;
+  padding-block-start: 50px;
+}
+.footer_author {
+  display: flex;
+  float: right;
+  padding-block-start: 50px;
+  padding-right: -200px;
 }
 .carousel-item .active {
   margin-right: 100px;
@@ -677,7 +644,8 @@
   height: 20px;
   border-radius: 100%;
 }
-@media only screen and (max-width: 900px) {
+
+@media only screen and (max-width: 780px) {
   .header_title-text,
   .offers__description,
   .portfollio_content,
@@ -685,6 +653,8 @@
   .team_desciption,
   .feadback_description {
     text-overflow: ellipsis;
+    overflow: hidden;
+    color: #ffffff;
   }
   .team_name {
     font-size: 12px;
