@@ -22,32 +22,27 @@
 <body>
     <header>
         <div class="header">
-            <div class="header_background">
-                <div class="header_wrapper">
-                    <div class="header_top">
-                        <div class="header_logo">
-                            <a>
-                                Tanatos
-                                <span class="color_orange">Studio</span>
-                            </a>
-                        </div>
-                        <div class="header_menu">
-                            <nav class="navbar-dark nav_menu">
-                                <a>Menu</a>
-                                <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#menuModal">
-                                    <i class="navbar-toggler-icon header__icon-menu"></i>
-                                </button>
-                            </nav>
-                        </div>
-                    </div>
-
+            <div class="header_top">
+                <div class="header_logo">
+                    <a>
+                        Tanatos
+                        <span class="color_orange">Studio</span>
+                    </a>
                 </div>
-
+                <div class="header_menu">
+                    <nav class="navbar-dark nav_menu">
+                        <a>Menu</a>
+                        <button class="navbar-toggler" type="button" data-toggle="modal" data-target="#menuModal">
+                            <i class="navbar-toggler-icon header__icon-menu"></i>
+                        </button>
+                    </nav>
+                </div>
             </div>
+
         </div>
     </header>
     <div class="header_content">
-        <div id="myCarousel" class="carousel-fade slide" data-ride="carousel" data-interval="3000">
+        <div id="myCarousel" class="carousel-fade slide" data-ride="carousel" data-interval="false">
             <div class="carousel-inner">
                 <div class="carousel-item background a ">
                     <div class="slideFilter">
@@ -55,7 +50,8 @@
                             WE DESIGN
                             <span class="color_orange">THINGS</span>
                         </h1>
-                        <p class="header_title-text">Lorem ipsum dolor sit amet,consctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                        <p class="header_title-text">Lorem ipsum dolor sit amet,consctetur adipisicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                         <button type="button" class="btn_header" data-toggle="modal" data-target="#hireModal">
                             <a style="color: #ffffff">Hire us</a>
                         </button>
@@ -74,7 +70,9 @@
                             WE DESIGN
                             <span class="color_orange">THINGS</span>
                         </h1>
-                        <p class="header_title-text">We built up with a team of professionals offer a complete range of interior design, renovation, construction and decoration services for both commercial and residential project.</p>
+                        <p class="header_title-text">We built up with a team of professionals offer a complete range of
+                            interior design, renovation, construction and decoration services for both commercial and
+                            residential project.</p>
                         <button type="button" class="btn_header" data-toggle="modal" data-target="#hireModal">
                             <a style="color: #ffffff">Hire us</a>
                         </button>
@@ -92,7 +90,9 @@
                             WE DESIGN
                             <span class="color_orange">THINGS</span>
                         </h1>
-                        <p class="header_title-text">We solved your dilemma when comes to designing your space. We promise to work with all your needs and ensure the final spaces created meet your best interest.</p>
+                        <p class="header_title-text">We solved your dilemma when comes to designing your space. We
+                            promise to work with all your needs and ensure the final spaces created meet your best
+                            interest.</p>
                         <button type="button" class="btn_header" data-toggle="modal" data-target="#hireModal">
                             <a style="color: #ffffff">Hire us</a>
                         </button>
@@ -459,49 +459,36 @@
     <div class="feedback">
         <div class="feedback_background">
             <div class="container">
-                <div class="wrapper">
-                    <div class="feedback_title">
-                        Say
-                        <span class="color_orange">Hello</span>
-                    </div>
-                    <div class="feadback_description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est
-                        laborum
-                    </div>
-                    <form action="" class="feedback_form">
-                        <div class="feedback_form-wrapper">
-                            <div class="feedback_form-email">
-                                <input type="text" placeholder=" Your email">
-                            </div>
-                            <div class="feedback_form-subject">
-                                <input type="text" placeholder=" Subject">
-                            </div>
-                            <div class="feedback_form-message">
-                                <textarea class="form-control " id="feedback_form-message" rows="8" placeholder="Your Message"></textarea>
-                            </div>
-                            <div class="feedback_form-button">
-                                <button>Hire Us</button>
-                            </div>
-                            <div class="feedback_form-icon">
-                                <a>
-                                    <i class="fa fa-facebook circle"></i>
-                                </a>
-                                <a>
-                                    <i class="fa fa-twitter circle "></i>
-                                </a>
-                                <a>
-                                    <i class="fa fa-google-plus circle "></i>
-                                </a>
-                                <a>
-                                    <i class="fa fa-dribbble circle "></i>
-                                </a>
-                                <a>
-                                    <i class="fa fa-behance circle "></i>
-                                </a>
-                            </div>
-                        </div>
-                    </form>
+                <div class="feedback_title">
+                    Say
+                    <span class="color_orange">Hello</span>
                 </div>
+                <div class="feadback_description"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                    officia deserunt mollit anim id est laborum
+                </div>
+                <form action="" class="feedback_form">
+                    <input type="text" placeholder=" Your email">
+                    <input type="text" placeholder=" Subject" class="float-right">
+                    <textarea class="form-control " id="feedback_form-message" rows="8" placeholder="Your Message"></textarea>
+                    <button>Hire Us</button>
+                    <div class="feedback_form-icon">
+                        <a>
+                            <i class="fa fa-facebook circle"></i>
+                        </a>
+                        <a>
+                            <i class="fa fa-twitter circle "></i>
+                        </a>
+                        <a>
+                            <i class="fa fa-google-plus circle "></i>
+                        </a>
+                        <a>
+                            <i class="fa fa-dribbble circle "></i>
+                        </a>
+                        <a>
+                            <i class="fa fa-behance circle "></i>
+                        </a>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
@@ -598,9 +585,11 @@
 <footer>
     <div class="footer">
         <div class="wrapper">
-            <div class="footer__copyright">
-                <div>© 2015 COPYRIGHT DESIGN STUDIO</div>
-                <div>DESIGNED BY SYMU.CO</div>
+            <div class="footer_copyright">
+                © 2015 COPYRIGHT DESIGN STUDIO
+            </div>
+            <div class="footer_author">
+                DESIGNED BY SYMU.CO
             </div>
         </div>
     </div>
