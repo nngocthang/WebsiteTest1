@@ -167,6 +167,7 @@
 .header_content {
   text-align: center;
   position: relative;
+  
 }
 .header_title {
   font-size: 70px;
@@ -377,8 +378,7 @@
   text-align: justify;
 }
 .abazoo-mask p {
-  width: 269px;
-  height: 53px;
+  margin: 30px 50px;
   font-size: 14px;
   line-height: 26px;
   color: #ffffff;
