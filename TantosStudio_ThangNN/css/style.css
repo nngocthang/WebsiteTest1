@@ -196,8 +196,8 @@
 }
 
 .header_content {
-  text-align: center;
-  position: relative;
+    text-align: center;
+    position: relative;
 }
 
 .header_title {
@@ -319,11 +319,11 @@
 }
 
 .circle-btn {
-  width: 151px;
-  height: 151px;
-  border-radius: 75px;
-  background-color: #ffffff;
-  border: 1px solid rgba(59, 67, 76, 0);
+    width: 151px;
+    height: 151px;
+    border-radius: 75px;
+    background-color: #ffffff;
+    border: 1px solid rgba(59, 67, 76, 0);
 }
 
 .circle-btn:hover {
