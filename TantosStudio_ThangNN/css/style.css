@@ -645,7 +645,7 @@
   border-radius: 100%;
 }
 
-@media only screen and (max-width: 780px) {
+@media screen and (min-width:471px) and (max-width:780px) {
   .header_title-text,
   .offers__description,
   .portfollio_content,
@@ -661,5 +661,80 @@
   }
   .team_memmber i {
     font-size: 10px;
+  }
+  .contact-pic{
+    width: 50%;
+    height: 50%;
+  }
+  
+  .team_memmber{
+    height: 50%;
+    width: 50%;
+  }
+  .team_about{
+    font-size: 12px;
+    overflow: hidden;
+    margin-block-start: 15px;
+  }
+}
+@media screen and (min-width:781px) and (max-width:1200px){
+  .header_title-text,
+  .offers__description,
+  .portfollio_content,
+  .testimonials_content,
+  .team_desciption,
+  .feadback_description {
+    overflow: hidden;
+  }
+  .team_name {
+    font-size: 14px;
+  }
+  .team_memmber i {
+    font-size: 12px;
+  }
+  .contact-pic{
+    width: 70%;
+    height: 70%;
+  }
+  
+  .team_memmber{
+    height: 50%;
+    width: 70%;
+  }
+  .team_about{
+    font-size: 12px;
+    width: 90%;
+    overflow: hidden;
+    text-align: center;
+  }
+}
+@media screen and (max-width:470px){
+  .header_title-text,
+  .offers__description,
+  .portfollio_content,
+  .testimonials_content,
+  .team_desciption,
+  .feadback_description {
+    overflow: hidden;
+  }
+  .team_name {
+    font-size: 14px;
+  }
+  .team_memmber i {
+    font-size: 12px;
+  }
+  .contact-pic{
+    width: 70%;
+    height: 70%;
+  }
+  
+  .team_memmber{
+    height: 50%;
+    width: 70%;
+  }
+  .team_about{
+    text-align: center;
+    margin: 15px;
+    overflow: hidden;
   }
 }
